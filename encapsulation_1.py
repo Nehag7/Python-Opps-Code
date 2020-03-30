@@ -4,8 +4,8 @@ class Speed:
 		self.__new_speed  = 60
 
 	def car_speed(self):
-		print("your speed id : ",self.speed)
-		print("your speed id : ",self.__new_speed)
+		print("your speed is : ",self.speed)
+		print("your speed is : ",self.__new_speed)
 
 	def get_speed(self):
 		return self.__new_speed
